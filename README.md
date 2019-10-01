@@ -1,6 +1,6 @@
 users table
 |Column|	Type  |	Options
-|name	 | string |	null: false, index: true
+|name	 | string |	null: false, index: true 
 |email |	string|	null: false
 Association
 has_many :messages has_many :groups, through: :members has_many :members
