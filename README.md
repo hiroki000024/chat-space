@@ -21,8 +21,8 @@ belongs_to :user
 
 messages table
 |Column	      |Type  	|Options
-|text	        |text	  |null: false
-|image	string|	      |
+|text	        |text	  |
+|image	      |string |
 |user_id	    |integer|	null: false,foreign_key: true
 |group_id	    |integer|	null: false, foreign_key: true
 Association
