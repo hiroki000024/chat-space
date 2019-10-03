@@ -58,11 +58,87 @@ body {
 
     .content-left {
     background-color: #2f3e51;
+    color: white;
     height: 100%;
     width: 300px;
     float: left;
-    }
+    line-height:20px;
+    } 
+      .box {
+      height: 31px;
+      width: 260px;
+      margin:20px 20px 40px 20px;
+        
+        .agroup {
+        height: 15px;
+        width: 100%;
+        font-size: 15px;
+        top: 0;
+        }
 
+        .bgroup {
+        height:5px;
+        width:100%;
+        }
+
+        .cgroup {
+        height:11px;
+        width:100%;
+        font-size: 11px;
+        }
+      }
+      .boxs {
+        height: 31px;
+        width: 260px;
+        margin:0 20px 40px 20px;
+
+        .dgroup {
+          height: 15px;
+          width: 100%;
+          font-size: 15px;
+          top: 0;
+          }
+  
+          .egroup {
+          height:5px;
+          width:100%;
+          }
+  
+          .fgroup {
+          height:11px;
+          width:100%;
+          font-size: 11px;
+
+        
+        }
+      }
+      .boxs {
+        height: 31px;
+        width: 260px;
+        margin:0 20px 40px 20px;
+
+        .dgroup {
+          height: 15px;
+          width: 100%;
+          font-size: 15px;
+          top: 0;
+          }
+  
+          .egroup {
+          height:5px;
+          width:100%;
+          }
+  
+          .fgroup {
+          height:11px;
+          width:100%;
+          font-size: 11px;
+
+        
+        }
+      }
+    
+    
     .content-right {
     background-color: #fafafa;
     height: 100%;
